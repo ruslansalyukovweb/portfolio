@@ -5,7 +5,7 @@ const About = () => {
 				<div className="text-center bg-(--gray-200) w-max m-auto rounded-xl py-1 px-3">
 					<h2 className="text-[14px] leading-[143%] text-(--gray-600) font-medium">About me</h2>
 				</div>
-				<div className="grid grid-cols-2 place-items-center pt-12 gap-12">
+				<div className="grid grid-cols-2 place-items-center mt-12 gap-12">
 					<div className="">
 						Photo
 					</div>
