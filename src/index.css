@@ -84,4 +84,9 @@
 		margin: 0 auto;
 		padding: 0 30px;
 	}
+	@media (max-width: 425px) {
+		.container {
+			padding: 0 16px;
+		}
+	}
 }

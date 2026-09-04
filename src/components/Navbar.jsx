@@ -43,7 +43,7 @@ const Navbar = () => {
 				<AnimatePresence mode="wait">
 					{isOpen && (
 						<nav>
-							<motion.ul initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 35 }} exit={{ opacity: 0, x: 100 }} transition={{ duration: 0.4 }} className="flex flex-col items-center ml-auto rounded-2xl inset-x-5 fixed gap-10 border border-(--gray-200) mt-5 p-6 w-30 backdrop-blur-sm bg-(--gray-100)/10">
+							<motion.ul initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 35 }} exit={{ opacity: 0, x: 100 }} transition={{ duration: 0.4 }} className="flex flex-col items-center ml-auto rounded-2xl inset-x-5 fixed gap-10 border border-(--gray-200) mt-15 p-6 w-30 backdrop-blur-sm bg-(--gray-100)/10">
 								{navlinks.map((link) => {
 									return <li key={link.to} className="relative z-50">
 										<NavLink
