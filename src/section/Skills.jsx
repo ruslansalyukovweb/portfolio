@@ -8,7 +8,7 @@ const Skills = () => {
 				<h2 className="text-[14px] leading-[143%] text-(--gray-600) font-medium">Skills</h2>
 			</div>
 			<p className="text-center text-[20px] leading-[140%] text-(--gray-600) mb-12">The skills, tools and technologies I am really good at:</p>
-			<div className="flex flex-wrap items-center justify-center gap-15">
+			<div className="flex flex-wrap items-center justify-center gap-18">
 				{skillsIcon.map((icon) => {
 					return <div key={icon.id} className="inline-flex flex-col items-center gap-2">
 						<img className="" src={icon.img}></img>

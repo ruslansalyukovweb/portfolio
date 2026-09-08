@@ -14,7 +14,7 @@ const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<div className="py-5! sticky top-0 bg-white/95">
+		<div className="py-5! sticky top-0 z-50 bg-white/95">
 			<div className="container ">
 				{/* desktop navbar*/}
 				<nav className="flex items-center justify-between">

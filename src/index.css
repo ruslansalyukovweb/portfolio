@@ -84,9 +84,14 @@
 		margin: 0 auto;
 		padding: 0 30px;
 	}
+
 	@media (max-width: 425px) {
 		.container {
 			padding: 0 16px;
 		}
 	}
+
+
+	/* min max clamp  */
+	/* text-[clamp(1rem,0.708rem+1.46vw,1.875rem)] */
 }
