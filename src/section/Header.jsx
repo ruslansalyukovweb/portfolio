@@ -15,7 +15,7 @@ const Header = () => {
 					<img src={location} alt="icon location" />
 					<p className="text-(--gray-600) leading-[150%]">Istanbul, Turkey</p>
 				</div>
-				<button className="text-[20px] mb-12 font-medium rounded-xs hover:rounded-3xl bg-(--gray-200) py-2.25 px-5.25 duration-200 hover:bg-(--gray-900) hover:text-(--gray-50)">Download Resume</button>
+				<button className="text-lg mb-12 font-medium rounded-xs hover:rounded-3xl bg-(--gray-200) py-2.25 px-5.25 duration-200 hover:bg-(--gray-900) hover:text-(--gray-50)">Download CV</button>
 				<Link to="https://github.com/ruslansalyukovweb" title="GitHub" className="block w-max" target="_blank"><img src={github} alt="" /></Link>
 			</div>
 		</motion.section>
